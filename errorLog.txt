@@ -1,0 +1,938 @@
+**************SendBundle-Start**************
+**************SendBundle-Start---0**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 327742650
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: Create",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 591633 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 585046 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3158 of 581164 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 25277 of 603000 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: SyncNative",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3045 of 577573 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 544080 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi invoke [2]",
+      "Program log: Instruction: Deposit",
+      "Program data: H159WuM0PbqisX4AAAAAAPANiQAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 516544 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: MintTo",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 508680 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi consumed 31558 of 532383 compute units",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi invoke [2]",
+      "Program log: Instruction: Withdraw",
+      "Program data: dPRh6GcfmDrtZSEAAAAAAO1lIQAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 471732 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Burn",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4616 of 464219 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi consumed 30447 of 486730 compute units",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi success",
+      "Program data: UWzjvs3QCsQ8VIkAAAAAAO1lIQAAAAAAQBkBAAAAAABQRgAAAAAAAAAAAAAAAAAA",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB consumed 128948 of 574528 compute units",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 157420
+  }
+}
+**************SendBundle-Start---1**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 327742650
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        1,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: Create",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 588633 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 582046 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3158 of 578164 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 25277 of 600000 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program log: Error: insufficient funds",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4300 of 544303 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB consumed 34720 of 574723 compute units",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 59997
+  }
+}
+**************SendBundle-Start---2**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 327742650
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: Create",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 591633 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 585046 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3158 of 581164 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 25277 of 603000 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: SyncNative",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3045 of 577573 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 544080 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi invoke [2]",
+      "Program log: Instruction: Deposit",
+      "Program data: H159WuM0PboKUV4AAAAAAIgHZgAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4736 of 516544 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: MintTo",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 508680 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi consumed 31558 of 532383 compute units",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi invoke [2]",
+      "Program log: Instruction: Withdraw",
+      "Program data: dPRh6GcfmDr33BgAAAAAAPfcGAAAAAAA",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Transfer",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 471730 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+      "Program log: Instruction: Burn",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4616 of 464217 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi consumed 30447 of 486728 compute units",
+      "Program 24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi success",
+      "Program data: UWzjvs3QCsTgO2YAAAAAAPfcGAAAAAAAYNEAAAAAAABYNAAAAAAAAAAAAAAAAAAA",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB consumed 128948 of 574528 compute units",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 157420
+  }
+}
+**************SendBundle-Start---3**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 327742650
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        1,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+      "Program log: Create",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: GetAccountDataSize",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1569 of 588633 compute units",
+      "Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program 11111111111111111111111111111111 invoke [2]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: Initialize the associated token account",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeImmutableOwner",
+      "Program log: Please upgrade to SPL Token 2022 for immutable owner support",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 582046 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: InitializeAccount3",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3158 of 578164 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 25277 of 600000 compute units",
+      "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB invoke [1]",
+      "Program log: Instruction: Swap",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: Transfer",
+      "Program log: Error: insufficient funds",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4300 of 544303 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB consumed 34720 of 574723 compute units",
+      "Program Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 59997
+  }
+}
+**************SendBundle-Start---4**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 327742650
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 600
+  }
+}
+**************SendBundle-End**************
+**************SendBundle-Start**************
+**************SendBundle-Start---0**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041352
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---1**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041352
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---2**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041352
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---3**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041352
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---4**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041352
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 600
+  }
+}
+**************SendBundle-End**************
+**************SendBundle-Start**************
+**************SendBundle-Start---0**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041960
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---1**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041960
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---2**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041960
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---3**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041960
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        "InvalidAccountData"
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program log: Error: InvalidAccountData",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1567 of 600000 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: invalid account data for instruction"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 1567
+  }
+}
+**************SendBundle-Start---4**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328041961
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 600
+  }
+}
+**************SendBundle-End**************
+**************SendBundle-Start**************
+**************SendBundle-Start---0**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144153
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7SPuKdQSAAAAJXF3TGlJMgCgzYcAAAAAAIJ5tL9pAQAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6238 of 572326 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 562152 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 45605 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 553802 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 52113
+  }
+}
+**************SendBundle-Start---1**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144153
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        2,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7SVxd0xpSTIAI+4p1BIAAAC9nKrwZwEAAIZrhgAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program log: Error: insufficient funds",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4485 of 572369 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 31523 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 35116
+  }
+}
+**************SendBundle-Start---2**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144153
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        2,
+        {
+          "Custom": 6005
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program log: AnchorError thrown in programs/cp-swap/src/instructions/swap_base_input.rs:186. Error Code: ExceededSlippage. Error Number: 6005. Error Message: Exceeds desired slippage limit.",
+      "Program log: Left: 1291863908164",
+      "Program log: Right: 1293810645345",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 27821 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C failed: custom program error: 0x1775"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 31414
+  }
+}
+**************SendBundle-Start---3**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144153
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        2,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7SVxd0xpSTIAI+4p1BIAAABhuR89LQEAAPx/cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program log: Error: insufficient funds",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4485 of 572369 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 31523 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 35116
+  }
+}
+**************SendBundle-Start---4**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144153
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Transfer: insufficient lamports 545194075, need 54333333333333",
+      "Program 11111111111111111111111111111111 failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 150
+  }
+}
+**************SendBundle-End**************
+**************SendBundle-Start**************
+**************SendBundle-Start---0**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144358
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7ULRfsQSAAAAMTewgXtzMgAgfnUAAAAAAGKWbQY7AQAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6238 of 572324 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 562150 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 45607 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 553800 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 52115
+  }
+}
+**************SendBundle-Start---1**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144358
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        2,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7TE3sIF7czIAQtF+xBIAAADdThtGKwEAAEAKbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program log: Error: insufficient funds",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4485 of 572365 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 31527 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 35120
+  }
+}
+**************SendBundle-Start---2**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144358
+  },
+  "value": {
+    "accounts": null,
+    "err": null,
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7ULRfsQSAAAAMTewgXtzMgBgi3gAAAAAAPKL7zRDAQAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6238 of 572322 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6147 of 562148 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 45609 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: CloseAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2915 of 553798 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 52117
+  }
+}
+**************SendBundle-Start---3**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144358
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        2,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]",
+      "Program log: Instruction: InitializeAccount",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 602850 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C invoke [1]",
+      "Program log: Instruction: SwapBaseInput",
+      "Program data: QMbN6CYIceKLsVKFNt5YUoxrYX/wdl3VG9F77z3xd6Ob+Wc4pI3G7TE3sIF7czIAQtF+xBIAAAC/keMLMwEAAHTscQAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+      "Program log: Instruction: TransferChecked",
+      "Program log: Error: insufficient funds",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4485 of 572367 compute units",
+      "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C consumed 31525 of 599407 compute units",
+      "Program CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 35118
+  }
+}
+**************SendBundle-Start---4**************
+{
+  "context": {
+    "apiVersion": "2.1.11",
+    "slot": 328144358
+  },
+  "value": {
+    "accounts": null,
+    "err": {
+      "InstructionError": [
+        0,
+        {
+          "Custom": 1
+        }
+      ]
+    },
+    "innerInstructions": null,
+    "logs": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Transfer: insufficient lamports 545194075, need 52000000000000",
+      "Program 11111111111111111111111111111111 failed: custom program error: 0x1"
+    ],
+    "replacementBlockhash": null,
+    "returnData": null,
+    "unitsConsumed": 150
+  }
+}
+**************SendBundle-End**************

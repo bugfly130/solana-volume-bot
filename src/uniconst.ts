@@ -1,0 +1,28 @@
+export const USDC_ADDRESS = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+export const SOL_USDC_POOL_ADDRESS =
+  "58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2";
+export const OPENBOOK_PROGRAM_ADDRESS =
+  "srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX";
+export const WSOL_ADDRESS = "So11111111111111111111111111111111111111112";
+export const WSOL_DECIMALS = 9;
+export const WSOL2022_ADDRESS = "9pan9bMn5HatX4EJdBwg9VgCa7Uz5HL8N1m5D3NdXejP";
+export const USDT_ADDRESS = `Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB`;
+
+export const JITO_BUNDLE_TIP = 0.00001;
+export const MAX_WALLET_SIZE = 500;
+export const MINUTE = 60 * 1000;
+export const HOUR = 60 * MINUTE;
+export const DAY = 24 * HOUR;
+
+export enum ResultCode {
+  SUCCESS = 0,
+  INTERNAL,
+  PARAMETER,
+  USER_INSUFFICIENT_SOL,
+  USER_INSUFFICIENT_JITO_FEE_SOL,
+  USER_INSUFFICIENT_ENOUGH_SOL,
+  INVALIDE_USER,
+  INVALIDE_TOKEN,
+}
+
+export const BOT_FOOTER_DASH = "";
